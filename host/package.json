@@ -19,6 +19,6 @@
     "zephyr-rspack-plugin": "latest"
   },
   "zephyr:dependencies": {
-    "remote": "zephyr:remote.zephyr-mf-challenge.felipefn15@*"
+    "remote": "zephyr:remote.valor-test.felipefn15@*"
   }
 }
