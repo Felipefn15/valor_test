@@ -1,0 +1,10 @@
+{
+  "name": "zephyr-mf-challenge",
+  "private": true,
+  "workspaces": ["remote", "host"],
+  "scripts": {
+    "build:remote": "npm run build -w remote",
+    "build:host": "npm run build -w host",
+    "deploy": "npm run build:remote && npm run build:host"
+  }
+}
