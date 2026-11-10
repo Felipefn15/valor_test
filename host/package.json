@@ -6,7 +6,10 @@
     "dev": "rspack serve --mode development --port 3000",
     "build": "rspack build --mode production"
   },
-  "dependencies": { "react": "^18.3.1", "react-dom": "^18.3.1" },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
   "devDependencies": {
     "@module-federation/enhanced": "latest",
     "@rspack/cli": "latest",
@@ -14,5 +17,8 @@
     "@rspack/plugin-react-refresh": "latest",
     "react-refresh": "^0.14.0",
     "zephyr-rspack-plugin": "latest"
+  },
+  "zephyr:dependencies": {
+    "remote": "zephyr:remote.zephyr-mf-challenge.felipefn15@latest"
   }
 }
